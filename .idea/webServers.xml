@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="19382ca9-215b-4485-9733-278e2f5ac057" name="nemchinov.pro" url="http://nemchinov.pro">
+        <fileTransfer host="31.31.196.95" port="21" rootFolder="/www/nemchinov.pro/">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

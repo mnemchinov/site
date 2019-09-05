@@ -726,6 +726,21 @@ input, select, textarea {
 		width: 100%;
 	}
 
+.avatar {
+	vertical-align: middle;
+	-moz-border-radius:50% 50% 50% 50%;
+	-webkit-border-radius: 50%;
+	-khtml-border-radius: 50%;
+	border-radius: 50%;
+	border:6px solid #fff;
+	height:200px;
+	width:200px;
+	margin: 30px auto;
+	position: relative;
+	display: inline-block;
+	zoom:1;
+}
+
 /* Wide */
 
 	@media screen and (max-width: 1680px) {
@@ -806,7 +821,13 @@ input, select, textarea {
 		#bg {
 			background-size: 1500px auto;
 			width: 4500px;
-		} }
+		}
+
+/*avatar*/
+		.avatar {
+			height:180px;
+			width:180px;
+		}}
 
 /* Normal */
 
@@ -888,7 +909,13 @@ input, select, textarea {
 		#bg {
 			background-size: 750px auto;
 			width: 2250px;
-		} }
+		}
+
+/*avatar*/
+		.avatar {
+			height:160px;
+			width:160px;
+		}}
 
 /* Mobile */
 
@@ -996,7 +1023,13 @@ input, select, textarea {
 
 			#header nav a:active {
 				font-size: 1em;
-			} }
+			}
+
+		/*avatar*/
+		.avatar {
+			height:140px;
+			width:140px;
+		}}
 
 /* Mobile (Portrait) */
 
@@ -1078,4 +1111,10 @@ input, select, textarea {
 
 		#header nav {
 			padding: 0 1em;
-		} }
+		}
+
+		/*avatar*/
+		.avatar {
+			height:120px;
+			width:120px;
+		}}

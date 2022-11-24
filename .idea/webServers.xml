@@ -2,12 +2,11 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="19382ca9-215b-4485-9733-278e2f5ac057" name="nemchinov.pro" url="http://nemchinov.pro">
-        <fileTransfer host="31.31.196.95" port="21" rootFolder="/www/nemchinov.pro/">
+      <webServer id="19382ca9-215b-4485-9733-278e2f5ac057" name="mnemchinov.ru" url="http://mnemchinov.ru">
+        <fileTransfer rootFolder="/www/mnemchinov.ru/" host="31.31.196.95" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="21" />
         </fileTransfer>
       </webServer>
     </option>
